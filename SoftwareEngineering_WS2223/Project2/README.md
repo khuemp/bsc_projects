@@ -32,4 +32,4 @@ Solver.solveForSatisfiability((!a || b) && c) match {
 }
 ```
 Note how you can use `!`, `||`, and `&&` for *not*, *or*, and *and*. The API does not support implication so you have to
-encode implication using the other operators. The primitives *true* and *false* are available as `Formulas.True` and `Formulas.False`. Mind the prepended `Formulas` as, otherwise, you might confuse them with the `True` and `False` literals from our programming languag
+encode implication using the other operators. The primitives *true* and *false* are available as `Formulas.True` and `Formulas.False`. Mind the prepended `Formulas` as, otherwise, you might confuse them with the `True` and `False` literals from our programming language!
